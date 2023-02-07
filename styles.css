@@ -49,3 +49,54 @@ body{
     font-size: 40px;
     font-weight: bold;
 }
+
+.new-todo{
+    background-color: hsl(235, 24%, 19%);
+    height: 70px;
+    margin-top: 50px;
+    border-radius: 6px;
+    display: flex;
+}
+
+.check{
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-mark{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid hsl(237, 14%, 26%);
+    cursor: crosshair;
+}
+
+.check-mark:hover{
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.new-todo-input{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.new-todo-input form{
+    flex-grow: 1;
+}
+
+.new-todo-input input{
+    width: 100%;
+    padding: 10px, 0px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: hsl(234, 39%, 85%);
+    font-size: 18px;
+}
+
+.new-todo-input input::placeholder{
+    color: hsl(233, 14%, 35%);
+}
