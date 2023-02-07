@@ -114,6 +114,7 @@ body{
     color: hsl(234, 39%, 85%);
     font-size: 18px;
     transition: all 0.25s ease;
+    display: flex;
     cursor: pointer;
 }
 
@@ -140,9 +141,9 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: auto;
+    padding: 0 30px;
     align-items: center;
-    color: hsl(234, 39%, 85%);
+    color: hsl(233, 14%, 35%);
     font-size: 14px;
 }
 
