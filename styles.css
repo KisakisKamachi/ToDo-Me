@@ -158,7 +158,7 @@ body{
 }
 
 .items-statuses span:hover, .items-statuses span.active, .items-clear:hover{
-    color: hsl(220, 98%, 61%);
+    color: hsl(20, 98%, 61%);
 }
 
 .items-clear{
